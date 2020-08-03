@@ -31,7 +31,7 @@ module "management_groups" {
         },
         "Identity"  = {
           "subscription_ids" = ["9a52c25a-b883-437e-80a6-ff4c2bccd44e"]
-        },
+        }
       }
     }
   }
