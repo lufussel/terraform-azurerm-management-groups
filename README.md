@@ -47,9 +47,15 @@ Example output:
 ```terraform
 {
   "Contoso" = {
+    "display_name" = "Contoso"
+    "group_id" = "9813ee40-5887-4da4-bf96-aa85d03af9b0"
+    "id" = "/providers/Microsoft.Management/managementGroups/9813ee40-5887-4da4-bf96-aa85d03af9b0"
+    "level" = 1
+    "name" = "9813ee40-5887-4da4-bf96-aa85d03af9b0"
+    "parent_management_group_id" = "/providers/Microsoft.Management/managementGroups/f246eeb7-b820-4971-a083-9e100e084ed0"
     "children" = [
       {
-        "name" = {
+        "Landing Zones" = {
           "children" = [
             {
               "name" = {
@@ -83,7 +89,7 @@ Example output:
         }
       },
       {
-        "name" = {
+        "Platform" = {
           "children" = [
             {
               "name" = {
@@ -117,7 +123,7 @@ Example output:
                 "name" = "cd7eca97-9698-47fa-a6c6-45a680a74c06"
                 "parent_management_group_id" = "/providers/Microsoft.Management/managementGroups/ad5234b6-8dec-47bb-b1e6-6f8af8826d6c"
               }
-            },
+            }
           ]
           "display_name" = "Platform"
           "group_id" = "ad5234b6-8dec-47bb-b1e6-6f8af8826d6c"
@@ -126,14 +132,8 @@ Example output:
           "name" = "ad5234b6-8dec-47bb-b1e6-6f8af8826d6c"
           "parent_management_group_id" = "/providers/Microsoft.Management/managementGroups/9813ee40-5887-4da4-bf96-aa85d03af9b0"
         }
-      },
+      }
     ]
-    "display_name" = "Contoso"
-    "group_id" = "9813ee40-5887-4da4-bf96-aa85d03af9b0"
-    "id" = "/providers/Microsoft.Management/managementGroups/9813ee40-5887-4da4-bf96-aa85d03af9b0"
-    "level" = 1
-    "name" = "9813ee40-5887-4da4-bf96-aa85d03af9b0"
-    "parent_management_group_id" = "/providers/Microsoft.Management/managementGroups/f246eeb7-b820-4971-a083-9e100e084ed0"
   }
 }
 ```
